@@ -1,10 +1,10 @@
-name: Open App with self hosted runner
+name: Open App
 
 on: [push]
 
 jobs:
   open:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
